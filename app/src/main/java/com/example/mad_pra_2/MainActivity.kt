@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "onStart", Toast.LENGTH_LONG).show()
         Snackbar.make(findViewById(R.id.main),"hello everyone",Snackbar.LENGTH_LONG).show()
     }
-    //dhudhgoishgdjdklgj
     override fun onResume() {
         super.onResume()
         Log.i("logging","onResume executing")
